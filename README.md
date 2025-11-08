@@ -39,7 +39,9 @@ Energia: Sistema fotovoltaico (energia solar)
 ☀️ Alimentação por energia solar e design sustentável
 
 🧩 Estrutura do Projeto
+
 /Projeto-Totem-Turistico
+
 │
 
 ├── index.html           # Interface principal
