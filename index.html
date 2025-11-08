@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal de Consulta - Turismo SP</title>
+    <link rel="stylesheet" href="..\css\style.css">
+</head>
+<body>
+    <div id="app" class="container">
+        <header class="topbar">
+            <div class="brand">TERMINAL DE CONSULTA TURÍSTICA</div>
+            <div id="clock" class="clock"></div>
+        </header>
+
+        <main class="main-screen">
+            <!-- Tela de Boas-Vindas -->
+            <section id="welcome" class="card large">
+                <h1 id="greeting">Bem-vindo ao Guia Turístico SP</h1>
+                <p class="subtitle">Toque para iniciar. Selecione o idioma.</p>
+                <div class="lang-row">
+                    <button class="lang-btn" data-lang="pt">🇧🇷 PORTUGUÊS</button>
+                    <button class="lang-btn" data-lang="en">🇺🇸 ENGLISH</button>
+                    <button class="lang-btn" data-lang="es">🇪🇸 ESPAÑOL</button>
+                </div>
+            </section>
+
+            <!-- Menu Principal -->
+            <section id="menu" class="card hidden">
+                <h2 id="menu-title">Menu Principal</h2>
+                <div class="menu-grid">
+                    <button class="menu-btn" data-screen="events">📅 EVENTOS</button>
+                    <button class="menu-btn" data-screen="tourism">🏛️ PONTOS TURÍSTICOS</button>
+                    <button class="menu-btn" data-screen="hotels">🏨 HOSPEDAGEM</button>
+                    <button class="menu-btn" data-screen="restaurants">🍽️ RESTAURANTES</button>
+                    <button class="menu-btn" data-screen="transport">🚇 TRANSPORTE</button>
+                    <button class="menu-btn" data-screen="map">🗺️ MAPA</button>
+                </div>
+                
+                <div class="search-row">
+                    <input id="searchInput" type="text" placeholder="Pesquisar..." aria-label="Pesquisar">
+                    <button id="voiceBtn" title="Pesquisa por voz">🎤</button>
+                </div>
+            </section>
+
+            <!-- Tela de Resultados -->
+            <section id="results" class="card hidden">
+                <div class="results-header">
+                    <button class="back-btn">← Voltar</button>
+                    <h3 id="results-title">Resultados</h3>
+                </div>
+                <div id="results-list" class="list"></div>
+            </section>
+
+            <!-- Tela de Detalhes -->
+            <section id="detail" class="card hidden">
+                <div class="results-header">
+                    <button class="back-btn">← Voltar</button>
+                    <h3 id="detail-title">Detalhes</h3>
+                </div>
+                <div id="detail-content" class="detail-content"></div>
+                <div class="detail-actions">
+                    <button id="emailLink" class="action-btn">📧 Enviar por E-mail</button>
+                    <button id="routeBtn" class="action-btn">🗺️ Mostrar Rota</button>
+                    <button id="favoriteBtn" class="action-btn">⭐ Favoritar</button>
+                </div>
+            </section>
+
+            <!-- Tela do Mapa -->
+            <section id="map" class="card hidden">
+                <div class="results-header">
+                    <button class="back-btn">← Voltar</button>
+                    <h3>Mapa Interativo</h3>
+                </div>
+                <div id="map-container" class="map-placeholder">
+                    <p>🌍 Mapa carregando...</p>
+                    <p><small>Integração com Google Maps</small></p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div>Terminal de Consulta Turística - Protótipo Funcional</div>
+            <div>Toque para navegar • Acessível • Sustentável</div>
+        </footer>
+    </div>
+
+    <script src="..\js\app.js"></script>
+</body>
+</html>
