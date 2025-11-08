@@ -40,14 +40,19 @@ Energia: Sistema fotovoltaico (energia solar)
 
 🧩 Estrutura do Projeto
 /Projeto-Totem-Turistico
-#│
-#├── index.html           # Interface principal
-#├── css/
-#│   └── style.css        # Estilos do dashboard
-#├── js/
-#│   └── app.js           # Lógica e interatividade do sistema
-#└── data/
-    #└── data.json        # Base de dados simulada com informações turísticas
+│
+
+├── index.html           # Interface principal
+
+├── css/
+│   └── style.css        # Estilos do dashboard
+
+├── js/
+│   └── app.js           # Lógica e interatividade do sistema
+
+└── data/
+    └── data.json        # Base de dados simulada com informações turísticas
+    
 
 🌱 Sustentabilidade
 
