@@ -1,6 +1,7 @@
-https://leandrohenriquedejesus.github.io/Tcc/
-
 # Tcc
+
+Link Direiconado para o projeto https://leandrohenriquedejesus.github.io/Tcc/
+
 Tcc Ciências da Computação
 
 🗺️ Terminais de Consulta – Pontos Turísticos para Turistas
