@@ -84,8 +84,8 @@ Desenvolvimento Web Responsivo
 Leandro Henrique de Jesus
 📚 Bacharel em Ciências da Computação – Universidade Paulista (UNIP)
 💼 Orientador Educacional | Desenvolvedor em formação
-📧 [Seu e-mail aqui]
-🌐 [Seu LinkedIn ou Portfólio aqui]
+📧 leandrohjesus@hotmail.com
+🌐 github.com/LeandroHenriquedeJesus
 
 🏆 Licença
 
